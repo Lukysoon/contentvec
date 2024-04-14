@@ -28,7 +28,7 @@ echo "Install fairseq..."
 python -m pip install --editable ./
 
 apt update
-apt isntall rsync -y
+apt install rsync -y
 python -m pip install scipy
 python -m pip install soundfile
 python -m pip install praat-parselmouth
