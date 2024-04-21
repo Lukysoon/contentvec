@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-PYTHON_ENVIRONMENT=contentvec
+PYTHON_ENVIRONMENT=contentvec-env
 
 cwd=$(pwd)
 FAIRSEQ=${cwd}/fairseq/fairseq
@@ -20,10 +20,12 @@ python -m pip install --editable ./
 
 apt update
 apt install rsync -y
+apt install p7zip-full p7zip-rar -y
 python -m pip install scipy
 python -m pip install soundfile
 python -m pip install praat-parselmouth
 python -m pip install tensorboardX
+pip install numpy==1.23.3
     
 cd ${cwd}
 
