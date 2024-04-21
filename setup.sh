@@ -18,9 +18,6 @@ git reset --hard 0b21875e45f332bedbcc0617dcf9379d3c03855f
 
 python -m pip install --editable ./
 
-apt update
-apt install rsync -y
-apt install p7zip-full p7zip-rar -y
 python -m pip install scipy
 python -m pip install soundfile
 python -m pip install praat-parselmouth
