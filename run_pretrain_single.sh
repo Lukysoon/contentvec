@@ -1,6 +1,6 @@
 #!/bin/bash
 
-expdir=./tmp
+expdir=./outputs
 mkdir -p $expdir
 
 
